@@ -1,0 +1,14 @@
+PODS:
+  - AvalonDemo (0.1.0)
+
+DEPENDENCIES:
+  - AvalonDemo (from `../`)
+
+EXTERNAL SOURCES:
+  AvalonDemo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AvalonDemo: 23c09682afd2aeb6b5c98f08ba0fe9fac8669c98
+
+COCOAPODS: 0.38.2

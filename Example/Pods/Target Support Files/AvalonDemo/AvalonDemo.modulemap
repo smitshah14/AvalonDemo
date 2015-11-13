@@ -1,0 +1,6 @@
+framework module AvalonDemo {
+  umbrella header "AvalonDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "AvalonDemo",
+  "version": "0.1.0",
+  "summary": "A short description of AvalonDemo.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/AvalonDemo",
+  "license": "MIT",
+  "authors": {
+    "SMIT V SHAH": "smit.shah@ahold.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/AvalonDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "AvalonDemo": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
