@@ -8,16 +8,27 @@
 
 #import <Foundation/Foundation.h>
 
+/*! Enum for `StoreAssociate` access level for the application */
+typedef NS_ENUM(NSInteger, AccessLevel) {
+    /*! Access level - None */
+    AccessLevelNone = -1,
+    /*! Access level - All. User can delete an order */
+    AccessLevelAllAccess = 0,
+    /*! Access level - Restricted. User cannot delete order  */
+    AccessLevelRestricted = 10
+};
+
 /*!
  This Singelton class was designed and implemented to store associate details and always fetch single instance of it using `sharedModel` method
  */
 @interface AVLStoreAssociate : NSObject
 
-@property(copy, nonatomic) NSString *userId;
-@property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSString *firstName;
-@property(copy, nonatomic) NSString *lastName;
-@property(copy, nonatomic) NSString *storeNo;
+@property (copy, nonatomic)     NSString *firstName;
+@property (copy, nonatomic)     NSString *lastName;
+@property (copy, nonatomic)     NSString *userId;
+@property (copy, nonatomic)     NSString *storeNo;
+@property (copy, nonatomic)     NSString *email;
+@property (assign, nonatomic)   AccessLevel accessLevel;
 
 /*!
  @abstract Singelton

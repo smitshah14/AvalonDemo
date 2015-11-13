@@ -20,8 +20,6 @@
         if (sharedModel == nil)
         {
             sharedModel = [[self alloc] init];
-            sharedModel.storeNo = @"35";
-            sharedModel.name = @"Store #35";
         }
     }
     
