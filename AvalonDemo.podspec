@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "AvalonDemo"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A Pod that helps to import necessary things related to Order Management."
 
 # This description is used to generate tags and improve search results.
